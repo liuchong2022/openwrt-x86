@@ -19,8 +19,11 @@ on:
         required: false
         default: 'false'
         
-   watch:
-     types: started
+  paths:
+     - '.config'  
+        
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
