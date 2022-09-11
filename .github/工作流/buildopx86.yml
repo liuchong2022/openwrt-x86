@@ -19,8 +19,8 @@ on:
         required: false
         default: 'false'
         
-  paths:
-     - '.config'  
+  #paths:
+     #- '.config'  
         
   watch:
     types: started
